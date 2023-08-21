@@ -5,6 +5,10 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+body{
+    background-color: #67727938;
+}
+
 .free_delivery{
     display: flex;
     justify-content: center;
@@ -148,3 +152,93 @@
     color: #00badb;
 }
 
+
+.carousel{
+z-index: -1;
+}
+
+.new_arrival{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px 10px 30px;
+}
+
+.new_arrival_text{
+    color: #1e2d7d;
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 1em;
+}
+
+.new_arrival a{
+    text-decoration: none;
+    font-size: 0.75em;
+    color: #00badb;
+    font-weight: 700;
+}
+
+.new_Arvl_box_containor{
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    width: 500px;
+    background-color: #ffffff;
+    border: 1px solid rgba(128, 128, 128, 0.53);
+    height: 500px;
+    background-image: url(images/box1_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box2{
+    width: 500px;
+    background-color: #ffffff;
+    border-top: 1px solid rgba(128, 128, 128, 0.53);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.53);
+    border-right: 1px solid rgba(128, 128, 128, 0.53);
+    height: 500px;
+    padding: 10px 10px 5px 15px;
+}
+
+.box2 h3{
+    line-height: 40px;
+    color: #1e2d7d;
+    margin-bottom: 30px;
+}
+
+.Box1_price{
+    padding: 2px 10px;
+    background-color: red;
+    width: fit-content;
+    color: white;
+    border-radius: 5px;
+}
+
+.social_icons_div{
+    width: 90%;
+    display: flex;
+    margin: 2px 10px;
+    padding: 10px 0;
+    justify-content: space-between;
+    border-bottom:0.5px solid #4d4f4a34;
+}
+
+.icon_link{
+    text-decoration: none;
+    color: #00badb;
+    /* width: 60%; */
+}
+
+.social_icons{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.social_icons i:hover{
+    cursor: pointer;
+}
