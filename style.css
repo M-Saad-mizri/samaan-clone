@@ -441,6 +441,14 @@ ul li {
   margin: 100px 0 100px 40px;
 }
 
+.end{
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 60px;
+}
+
 .follow {
   margin-left: 75%;
   margin-bottom: 20px;
